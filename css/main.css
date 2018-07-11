@@ -110,6 +110,10 @@ input:active, input:focus{
 	text-transform: uppercase;
 }
 
+.bolder{
+	font-weight: 900;
+}	
+
 
 
 
@@ -121,16 +125,55 @@ input:active, input:focus{
 
 /*1st screen*/
 
+header{
+		background: url(../img/bg1.png)no-repeat center top/cover;
+
+}
 .header{
-	font-weight: 900;
-	background: #103449;
-	
+	background: rgba(16, 52, 73, 0.4) ;
+
 }
 
 .menu{
-
+	padding: 24px 0 20px 0;
 }
 
-.menu li{
+.menu__item{
+	float:left;
+}
+
+.menu__item a{
+	color: #f0f3f5;
+	font-weight: 900;
+	font-size: 0.733rem;
+	border-radius: 5px;
+	padding: 13px 12px;
+	
 	
 }
+
+.menu__item a:hover{
+	background: #375e73;
+	color: #fff;
+	text-decoration: none;]
+}
+
+.contacts__phone{
+	font-size: 1.067rem;
+	color: #fff;
+	background: url(../img/phone.png ) no-repeat 16% 70%;
+	padding: 12px 26px 0 0;
+}
+
+.header1{
+	font-size: 6.000rem;
+	letter-spacing: 30px;
+	color: #eaeded;
+}
+
+.header2{
+	font-size: 3.400rem;
+	letter-spacing: 13px;
+	color: #eaeded;
+}
+
