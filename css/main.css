@@ -80,7 +80,7 @@ ul, li{
 
 
 section{
-	padding: 93px 0 100px 0;
+	padding: 90px 0 94px 0;
 }
 
 
@@ -91,7 +91,8 @@ section{
 	-webkit-transition-timing-function: ease;
 }
 h2{
-	;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 a, a:hover, a:active, a:focus, 
@@ -135,7 +136,7 @@ header{
 }
 
 .header{
-	background-color: rgba(16, 52, 73, 0.4);
+	background-color: rgba(16, 52, 73, 0.7);
 
 }
 
@@ -172,7 +173,7 @@ header{
 
 .first{
 	background-color: rgba(16, 52, 73, 0.4);
-	height: 100vh;
+	height: 90vh;
 }
 
 .first__header1{
@@ -198,6 +199,66 @@ header{
 	color: #fff;
 	margin-left: 50%;
 	margin-top: 173px;
+	text-align: center;
+}
 
+.adv{
+	background: #fff;
+	font-weight: 900;
+	color: #000;
+
+}
+
+.adv__list{
+	
+}
+
+.adv__header{
+	/*padding-top: 90px;*/
+	font-size: 2.800rem;
+	color: #000;
+
+}
+
+.adv__item{
+	background: #f4f4f4;
+	height: 358px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.12);
+}
+
+.adv__img{
+	margin-top: 66px;
+	height: 151px;
+}
+
+.adv__img_first{
+	background: url(../img/Helping.png) no-repeat center center;
+}
+
+.adv__img_second{
+	background: url(../img/edit.png) no-repeat center center;
+}
+
+.adv__img_third{
+	background: url(../img/Conference.png) no-repeat center center;
+}
+
+.adv__title{
+	letter-spacing: 3px;
+	margin-top: -10px;
+	font-size: 1.333rem;
+}
+
+.adv__line{
+	margin: 20px auto;
+
+	width: 36px;
+	border-bottom: 1px solid #c6c6c6;
+}
+
+.adv__text{
+	font-weight: 100;
+	font-size: 1.133rem;
+	padding: 0 20px 20px 20px;
 }
 
