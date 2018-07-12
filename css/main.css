@@ -126,9 +126,16 @@ input:active, input:focus{
 /*1st screen*/
 
 header{
-	background: rgba(16, 52, 73, 0.4)  url(../img/bg1.png) no-repeat center bottom; 
+	
+	background:  url(../img/bulgaria.png) no-repeat center top/cover; 
+	height: 100vh;
 
 
+
+}
+
+.header{
+	background-color: rgba(16, 52, 73, 0.4);
 
 }
 
@@ -163,6 +170,11 @@ header{
 	padding: 12px 26px 0 0;
 }
 
+.first{
+	background-color: rgba(16, 52, 73, 0.4);
+	height: 100vh;
+}
+
 .first__header1{
 	font-size: 6.000rem;
 	letter-spacing: 30px;
@@ -185,7 +197,7 @@ header{
 	border-radius: 60px;
 	color: #fff;
 	margin-left: 50%;
-	margin-bottom: 173px;
+	margin-top: 173px;
 
 }
 
