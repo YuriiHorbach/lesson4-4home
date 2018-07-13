@@ -281,8 +281,19 @@ header{
 	
 }
 
+.move__text_quote{
+	line-height: 1.77;
+	margin-top: 28px;
+	font-size: 1.200rem;
+	
+}
+
 .move__span_ron{
 	font-style:normal;
 	font-size: 0.933rem;
 	letter-spacing: 4px;
+}
+
+.move__text_middle{
+	
 }
