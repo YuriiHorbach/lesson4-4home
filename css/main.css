@@ -204,7 +204,6 @@ header{
 
 .adv{
 	background: #fff;
-	font-weight: 900;
 	color: #000;
 
 }
@@ -251,12 +250,11 @@ header{
 
 .adv__line{
 	margin: 20px auto;
-
 	width: 36px;
 	border-bottom: 1px solid #c6c6c6;
 }
 
-.adv__text{
+.adv__txt{
 	font-weight: 100;
 	font-size: 1.133rem;
 	padding: 0 20px 20px 20px;
@@ -359,7 +357,7 @@ header{
 }
 
 .move__text_answerLittle {
-	margin: 0;
+	margin: 0 0 48px 0 ;
 	text-align: center;
 	letter-spacing: 1px;
 }
@@ -367,11 +365,8 @@ header{
 .move__find-more{
 	font-size: 1rem;
 	color: #fff;
-	display: block;
 	width: 215px;
 	padding: 22px 33px;
-	left: 50%;
 	border: 1px solid #fff;
-	margin-left: -107px;
 	border-radius: 3px; 
 } 
