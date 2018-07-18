@@ -392,6 +392,7 @@ header{
 		background: #f4f4f4;
 		padding: 70px 43px 43px 60px;
 		box-shadow:0px 3px 4px rgba(0, 0, 0, 0.2);
+		
 }
 
 .realty__dream_part1 h3{
@@ -399,7 +400,7 @@ header{
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 	1.333rem;
-
+	z-index: 1;
 }
 
 .realty__dream_text{
@@ -447,3 +448,36 @@ header{
 	color: #21a4db;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.3) inset;
 }
+
+.realty__dream_part1:before {  
+    content: " ";
+	background: url(../img/two-circles.png);
+	display: block;
+	height: 60px;
+	width: 299px;
+	position: absolute;
+	top: 96px;
+	left: 200px;
+} 
+
+
+
+.realty__circle1{
+	position: absolute;
+	right: 297px;
+	top: 37px;
+	z-index: 1;
+}
+/*
+.realty__circle2{
+	position: absolute;
+	right: 286px;
+	top: 39px;
+	
+}
+
+.realty__circle3{
+	position: absolute;
+	right: 243px;
+	top: 120px;
+}*/
