@@ -93,6 +93,11 @@ section{
 h2{
 	margin-top: 0;
 	margin-bottom: 0;
+
+}
+
+.h2-defFontSize{
+	font-size: 	2.800rem;
 }
 
 a, a:hover, a:active, a:focus, 
@@ -209,7 +214,6 @@ header{
 
 .adv__header{
 	/*padding-top: 90px;*/
-	font-size: 2.800rem;
 	color: #000;
 
 }
@@ -264,7 +268,7 @@ header{
 }
 
 .move__h2{
-	font-size: 2.800rem;
+	
 	letter-spacing: 3px;
 }
 
@@ -381,7 +385,7 @@ header{
 }
 
 .realty__header{
-		font-size: 	2.800rem;
+		
 }
 
 .realty__dream{
@@ -481,3 +485,13 @@ header{
 	right: 243px;
 	top: 120px;
 }*/
+
+/*realty*/
+
+.feedback__header{
+	color: #000;
+}
+
+.feedback__right, .feedback__left{
+	font-size: 3.000rem;
+}
