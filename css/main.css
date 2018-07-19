@@ -488,10 +488,83 @@ header{
 
 /*realty*/
 
+
 .feedback__header{
 	color: #000;
+
+}
+
+.feedback__right{
+	width: 15px;
+	height: 25px;
+	background: url(../img/right-arrow.png) no-repeat;
+}
+
+.feedback__left{
+	width: 15px;
+	height: 25px;
+	background: url(../img/left-arrow.png) no-repeat;
 }
 
 .feedback__right, .feedback__left{
 	font-size: 3.000rem;
 }
+
+.feedback__rowBlock{
+	width: 132px;
+	height: 132px;
+	line-height: 132px;
+}
+
+.feedback__girl{
+	width: 132px;
+	height: 132px;
+	background: url(../img/girl.png) no-repeat;
+	position: absolute;
+	top:100px;
+	left: -104px;
+}
+
+
+.feedback__dataBlock1{
+	margin-top: 112px;
+	margin-bottom: 25px;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+
+.feedback__inner{
+	padding-top: 44px;
+}
+
+.feedback__name{
+	font-size: 1.067rem;
+	color: #000;
+	margin-left: 140px;
+}
+
+.feedback__location, .feedback__social{
+	font-size: 0.800rem;
+	line-height: 19px;
+	color: #23aae2;
+}
+
+.feedback__location{
+	margin-left: 43px;
+}
+
+.feedback__social{
+	margin-left: 148px;
+}
+
+.feedback__dataBlock2{
+	/*margin: 0 40px 70px 140px;*/
+}
+
+.feedback__text{
+	font-style: italic;
+	padding: 0 40px 47px 140px;
+	
+}
+
+
+
