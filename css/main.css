@@ -491,6 +491,7 @@ header{
 
 .feedback__header{
 	color: #000;
+	line-height: 35px;
 
 }
 
@@ -510,30 +511,40 @@ header{
 	font-size: 3.000rem;
 }
 
-.feedback__rowBlock{
+.feedback__rowBlock_right, .feedback__rowBlock_left{
 	width: 132px;
 	height: 132px;
 	line-height: 132px;
+	margin: 204px 0 0 30%;
 }
+
+.feedback__rowBlock_right{
+	width: 132px;
+	height: 132px;
+	line-height: 132px;
+	margin-top: 204px;`
+}
+
 
 .feedback__girl{
 	width: 132px;
 	height: 132px;
 	background: url(../img/girl.png) no-repeat;
 	position: absolute;
-	top:100px;
-	left: -104px;
+	top: 158px;
+	left: -51px;
 }
 
 
 .feedback__dataBlock1{
 	margin-top: 112px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 }
 
 .feedback__inner{
 	padding-top: 44px;
+	margin-bottom: 27px;
 }
 
 .feedback__name{
@@ -549,11 +560,15 @@ header{
 }
 
 .feedback__location{
-	margin-left: 43px;
+	margin:0 40px 0 143px;
 }
 
 .feedback__social{
-	margin-left: 148px;
+	margin-left: 44px;
+}
+
+.feedback__social:hover{
+	border-bottom: 1px solid #23aae2;
 }
 
 .feedback__dataBlock2{
@@ -564,6 +579,29 @@ header{
 	font-style: italic;
 	padding: 0 40px 47px 140px;
 	
+}
+
+.feedback__circles{
+	/*	margin-left: 50%;
+		margin-right: -40px;*/
+		width: 90px;
+}
+
+.feedback__circle{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px dashed #23aae2;
+	margin-right: 10px;
+	border-radius: 60%;
+}
+
+.feedback__circle:nth-child(2){
+	background: #23aae2;
+}
+
+.feedback__circle:hover{
+	background: #23aae2;
 }
 
 
