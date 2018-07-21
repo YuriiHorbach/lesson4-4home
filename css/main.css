@@ -690,20 +690,36 @@ header{
 
 .footer{
 	background: #23aae2;
+	padding: 25px;
+}
+
+.footer__content{
+height: 58px;
 }
 
 .footer__logo{
+	width: 165px;
+	height: 58px;
 	background: url(../img/logo-footer.png) no-repeat;
 }
 
 .footer__rights{
-
+	display: block;
+	margin: 15px 0 0 100px;
+	height: 58px;
 }
 
 .footer__conf{
-
+	display: block;
+	margin-left: 121px;
+	height: 58px;
+	margin: 15px 0 0 100px;
 }
 
 .footer__contacts{
-
+	height: 58px;
+	padding-top: 5px;
+	font-size: 1.067rem;
+	color: #fff;
+	background: url(../img/phone.png ) no-repeat 16% 70%;
 }
