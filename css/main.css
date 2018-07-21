@@ -685,3 +685,25 @@ header{
 	letter-spacing: 2px;
 	font-size: 1rem;
 }
+
+/*footer*/
+
+.footer{
+	background: #23aae2;
+}
+
+.footer__logo{
+	background: url(../img/logo-footer.png) no-repeat;
+}
+
+.footer__rights{
+
+}
+
+.footer__conf{
+
+}
+
+.footer__contacts{
+
+}
