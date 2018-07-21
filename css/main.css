@@ -609,15 +609,20 @@ header{
 
 .consult{
 	background: #11b2f5 url(../img/confusing-background.png) repeat-x;
+	box-shadow: 0px -57px 81px -17px rgba(0,0,0,0.1) inset;
 }
 
 .consult__header{
 	color: #fff;
+	margin-bottom: 33px;
+	letter-spacing: 3px;
 }
 
 .consult__text{
 	font-size: 1.400rem;
 	color: #fff;
+	margin-bottom: 35px;
+	letter-spacing: 3px;
 }
 
 .consult__tblock2_arrow_Down{
@@ -633,10 +638,17 @@ header{
 	position: absolute;
 	left:50%;
 	bottom: -19px;*/
+	margin-bottom: 30px;
+}
+
+.consult__form{
+	
+	
 }
 
 .consult__order{
 	margin-left: 15%;
+
 }
 
 
@@ -649,10 +661,15 @@ header{
 	background: #30c2ff;
 	text-align: left;
 	color: #a4e4ff;
+	margin-bottom: 9px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.867rem;
 }
 
 .order__input:hover{
 	color: #fff;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 }
 
 
@@ -665,4 +682,6 @@ header{
 	background: #30c2ff;
 	text-align: left;
 	color: #fff;
+	letter-spacing: 2px;
+	font-size: 1rem;
 }
