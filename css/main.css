@@ -164,12 +164,28 @@ header{
 	text-decoration: none;]
 }
 
+.contacts__icon{
+	width: 26px;
+	height: 26px;
+	padding: 27px 0 23px 0;
+	margin-left: 0;	
+}
+
 .contacts__phone{
+	display: block;
+	width: 193px;
 	font-size: 1.067rem;
 	color: #fff;
-	background: url(../img/phone.png ) no-repeat 16% 70%;
-	padding: 12px 26px 0 0;
+	/*background: url(../img/phone.png ) no-repeat 16% 70%;*/
+	padding: 12px 0;
+	
 }
+
+.contacts__menu-gamburger{
+	padding: 27px 0;
+}
+
+
 
 .first{
 	background-color: rgba(16, 52, 73, 0.4);
