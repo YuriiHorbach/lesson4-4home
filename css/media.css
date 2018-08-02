@@ -1,16 +1,13 @@
-*@media (max-width: 1200px) {
-	
-	.contacts__all{
-		padding-left:0px;
-	}
+ @media screen and (max-width: 768px) {    // Not max-height
+        .first__header1{
+            font-size:64px;
+            color: red;
+        }
+    }
 
-}
 
-*@media (max-width: 1999px) {
-	
-	.contacts__all{
-		padding-left: 87px;
-	}
 
-}
+
+
+
 
