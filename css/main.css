@@ -164,6 +164,10 @@ header{
 	text-decoration: none;]
 }
 
+.contacts__all{
+	width: 186px;
+}
+
 .contacts__icon{
 	width: 26px;
 	height: 26px;
