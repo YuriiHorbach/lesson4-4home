@@ -1,8 +1,15 @@
- @media screen and (max-width: 768px) {    // Not max-height
+@media screen and (max-width: 1200px) {   
         .first__header1{
-            font-size:64px;
-            color: red;
+            font-size:4.267rem;
+          
         }
+
+        .first__header2{
+            font-size: 2.933rem;
+        }
+
+
+
     }
 
 
