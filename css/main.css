@@ -481,14 +481,17 @@ header{
 	width: 299px;
 	position: absolute;
 	top: 96px;
-	left: 200px;
-} 
+	left: 50%;
+  margin-left: -20%;
+}
+
 
 
 
 .realty__circle1{
 	position: absolute;
-	right: 297px;
+	left: 50%;
+  margin-left: -12%;
 	top: 37px;
 	z-index: 1;
 }

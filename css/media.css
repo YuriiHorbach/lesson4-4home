@@ -8,9 +8,62 @@
             font-size: 2.933rem;
         }
 
+        .realty__circle1{
+            left: 50%;
+            width: 188px;
+            height: 188px;
+            margin-left: -15%;
+        }
+
+
 
 
     }
+
+@media screen and ( max-width: 1199px) {   
+      
+    .realty__circle1{
+            left: 50%;
+            width: 188px;
+            height: 188px;
+            margin-left: -15%;
+        }
+
+    .realty__dream_part1:before {  
+        content: " ";
+        background: url(../img/two-circles.png);
+        display: block;
+        height: 60px;
+        width: 299px;
+        position: absolute;
+        top: 96px;
+        left: 50%;
+        margin-left: -25%;
+}
+
+   }
+
+@media screen and ( max-width: 723px) {   
+      
+    .realty__circle1{
+           left: 50%;
+        margin-left: -17%;
+            
+        }
+
+    .realty__dream_part1:before {  
+        display: none;
+}
+
+    .realty__dream_part1{
+      margin-top: 60px;  
+    }
+
+   }
+
+
+
+
 
 
 
