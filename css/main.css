@@ -771,13 +771,22 @@ height: 58px;
 
 /*contacnt-page*/
 
+.container-border{
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	padding: 54px 113px;
+	background: #fff;
+	margin-top: -179px;	
+}
+
 .contact-page__text{
 	font-size: 1.133rem;
+	margin-bottom: 56px;
 }
 
 .form_background{
 	background: #11b2f5;
 	padding: 42px;
+	border-radius: 4px;
 }
 
 .list-groupe-item{
@@ -795,6 +804,16 @@ height: 58px;
 .contact-page__img{
 	width: 60px;
 	height: 70px;
+}
+
+.consult__header_contacts{
+	font-size: 1.667rem;
+	color: #fff;
+}
+
+.consult__text_contacts{
+	font-size: 1.200rem ;
+	color: #fff;
 }
 
 
