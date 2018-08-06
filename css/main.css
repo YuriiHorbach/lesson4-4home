@@ -768,3 +768,34 @@ height: 58px;
 	background: url(../img/footer-phone.png ) no-repeat 16% 70%;
 	padding: 3px 26px 0 0;
 }
+
+/*contacnt-page*/
+
+.contact-page__text{
+	font-size: 1.133rem;
+}
+
+.form_background{
+	background: #11b2f5;
+	padding: 42px;
+}
+
+.list-groupe-item{
+	margin-bottom: 50px;
+}
+
+.cellPhone__header{
+	font-size: 1.200rem;
+}
+
+.cellPhone__numbers{
+	font-size: 1.067rem;
+}
+
+.contact-page__img{
+	width: 60px;
+	height: 70px;
+}
+
+
+
