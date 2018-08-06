@@ -70,6 +70,11 @@
     .realty__circle{
           top:488px;  
      } 
+
+     .footer__contacts{
+        display: none;
+        
+     }
 }
 
 
@@ -84,23 +89,26 @@
 
     .realty__dream_part1:before {  
         display: none;
-}
+        }   
 
     .realty__dream_part1{
       margin-top: 60px;  
-    }
+        }
 
      .realty__circle{
         top:490px;
-    }
-
+        }
+    .footer__contacts{
+        display: none;
+        
+        }
 
 }
 
 @media screen and ( max-width: 575px) {
     .first__arrow_down{
-        left: 50%;
-        margin-left: 136px;
+        /*left: 50%;
+        margin-left: 136px;*/
     } 
 
     .first__header1, .first__header2{
@@ -124,10 +132,15 @@
     }
 
     .order__input, .order__btn{
-        width: 80%;
+        width: 100%;
         letter-spacing: 0;
         padding: 18px 8px;
     }
+
+     .footer__contacts{
+        display: none;
+        
+     }
 /*
     .order__btn{
         
@@ -142,6 +155,11 @@
     .realty__circle{
        display: none;
      } 
+
+      .footer__contacts{
+        display: none;
+        
+     }
 }
 
 @media screen and ( max-width: 463px) {   
@@ -164,6 +182,11 @@
     .feedback__text{
          padding: 0 40px 47px 97px;
     }
+
+     .footer__contacts{
+        display: none;
+        
+     }
 }
 
 
