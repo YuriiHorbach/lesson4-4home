@@ -775,7 +775,7 @@ height: 58px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
 	padding: 54px 113px;
 	background: #fff;
-	margin-top: -179px;	
+	margin-top: -139px;	
 }
 
 .contact-page__text{
@@ -809,12 +809,43 @@ height: 58px;
 .consult__header_contacts{
 	font-size: 1.667rem;
 	color: #fff;
+	margin-bottom: 15px;
+	letter-spacing: 0.5px;
 }
 
 .consult__text_contacts{
 	font-size: 1.200rem ;
 	color: #fff;
+	letter-spacing: 2px;
 }
 
+.head{
+	background: rgba(16, 52, 73, 0.4) url(../img/bulgaria.png) no-repeat center top/cover;
+	height: 50vh;
+}
+
+.first_contacts{
+	background-color: rgba(16, 52, 73, 0.4);
+	height: 39.5vh;
+}
+
+
+.first__header1_contacts{
+	font-size: 3.400rem;
+	color: #fff;
+	margin-top: 70px;
+}
+
+.first__arrow_contacts{
+	  font-size: 2.133rem;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px #fff dashed;
+    border-radius: 60px;
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+}
 
 
