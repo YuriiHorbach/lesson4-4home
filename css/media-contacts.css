@@ -39,24 +39,12 @@
         top: 96px;
         left: 50%;
         margin-left: -25%;
-        }
+}
 
 
     .realty__circle{
         top:415px;
-        } 
-
-
-    .container-border {
-        padding: 0;
-        box-shadow: 0px 0px 0px rgba(0,0,0,0.0);
-        background: #fff;
-        margin-top: -20px;
     }
-
-     .form_background{
-
-     }  
 
    }
 
@@ -87,20 +75,6 @@
         display: none;
         
      }
-
-
-    .container-border {
-        
-       
-        background: #fff;
-        margin-top: 00px;
-    }
-
-     .form_background{
-
-     }
-
-     
 }
 
 
