@@ -1,0 +1,87 @@
+/*move-page*/
+
+.container-border{
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	padding: 54px 113px;
+	background: #fff;
+	margin-top: -139px;	
+}
+
+.move-page__header{
+	font-size: 1.133rem;
+	margin-bottom: 56px;
+}
+
+.move__text{
+	line-height: 1.4;
+	font-size: 1.067rem;
+}
+
+.form_background{
+	background: #11b2f5;
+	padding: 42px;
+	border-radius: 4px;
+}
+
+.list-groupe-item{
+	margin-bottom: 50px;
+}
+
+.cellPhone__header{
+	font-size: 1.200rem;
+}
+
+.cellPhone__numbers{
+	font-size: 1.067rem;
+}
+
+.contact-page__img{
+	width: 60px;
+	height: 70px;
+	float: left;
+}
+
+.consult__header_contacts{
+	font-size: 1.667rem;
+	color: #fff;
+	margin-bottom: 15px;
+	letter-spacing: 0.5px;
+}
+
+.consult__text_contacts{
+	font-size: 1.200rem ;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.head{
+	background: rgba(16, 52, 73, 0.4) url(../img/bulgaria.png) no-repeat center top/cover;
+	height: 49vh;
+}
+
+.first_contacts{
+	background-color: rgba(16, 52, 73, 0.4);
+	height: 38.5vh;
+}
+
+
+.first__header1_move{
+	font-size: 3.400rem;
+	color: #fff;
+	margin-top: 70px;
+	letter-spacing: 11px;
+}
+
+.first__arrow_contacts{
+	  font-size: 2.133rem;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px #fff dashed;
+    border-radius: 60px;
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
