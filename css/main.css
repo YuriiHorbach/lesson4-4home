@@ -804,6 +804,7 @@ height: 58px;
 .contact-page__img{
 	width: 60px;
 	height: 70px;
+	float: left;
 }
 
 .consult__header_contacts{
@@ -821,7 +822,7 @@ height: 58px;
 
 .head{
 	background: rgba(16, 52, 73, 0.4) url(../img/bulgaria.png) no-repeat center top/cover;
-	height: 50vh;
+	height: 49vh;
 }
 
 .first_contacts{
