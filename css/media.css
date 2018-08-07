@@ -15,6 +15,11 @@
             margin-left: -15%;
         }
 
+          .contact-page__img{
+        float: left;
+    }
+
+
 
 
 
@@ -58,13 +63,41 @@
 
      }  
 
+     .contact-page__img {
+        float: left;
+    
+    }
+
+    .first_contacts {
+    background-color: rgba(16, 52, 73, 0.4);
+    height: 38.5vh;
+}
+
    }
 
 @media screen and ( max-width: 991px) {   
       
     .realty__circle{
           top:440px;  
-     } 
+     }
+
+    .contact-page__img{
+        float: none;
+        margin:0 auto;
+        padding: 13px 15px;
+    }
+
+    .cellPhone__header{
+        text-align: center;
+        
+    }
+
+    .cellPhone__numbers{
+        text-align: center;
+        
+    }
+
+
 }
 
 @media screen and ( max-width: 768px) {   
@@ -99,6 +132,11 @@
      .form_background{
 
      }
+
+       .contact-page__img{
+        float: none;
+    }
+
 
      
 }
@@ -167,11 +205,20 @@
         display: none;
         
      }
+
+     .contact-page__list{
+        width: auto;
+     }
 /*
     .order__btn{
         
         padding: 18px 8px;
     }*/
+
+      .contact-page__img{
+        float: none;
+    }
+
 }
 
 
