@@ -75,6 +75,8 @@
         display: none;
         
      }
+
+     
 }
 
 
@@ -146,6 +148,13 @@
         
         padding: 18px 8px;
     }*/
+
+    /*move page*/
+
+    .first__header1_move{
+        font-size: 160%;
+        letter-spacing: 1px;
+    }
 }
 
 
