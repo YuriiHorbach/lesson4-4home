@@ -1,4 +1,8 @@
 /*move-page*/
+.first_contacts {
+        height: 48.5vh;
+    }
+
 
 .container-border{
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
@@ -17,9 +21,6 @@
 	height: 60vh;
 }
 
-.first_contacts{
-	height: 49.5vh;
-}
 
 
 .first__header1_move{

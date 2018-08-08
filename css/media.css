@@ -21,8 +21,14 @@
 
         .first_contacts {
             background-color: rgba(16, 52, 73, 0.4);
-            height: 38vh;
+            
         }
+
+         /*move page*/
+
+    .first_contacts {
+        height: 48.5vh;
+    }
 
 
 
@@ -74,9 +80,15 @@
     }
 
     .first_contacts {
-    background-color: rgba(16, 52, 73, 0.4);
-    height: 38vh;
-}
+        background-color: rgba(16, 52, 73, 0.4);
+        height: 38vh;
+    }
+
+     /*move page*/
+
+    .first_contacts {
+        height: 48.5vh;
+    }
 
    }
 
@@ -100,6 +112,12 @@
     .cellPhone__numbers{
         text-align: center;
         
+    }
+
+    /*move page*/
+
+    .first_contacts {
+        height: 48.5vh;
     }
 
 
@@ -168,6 +186,15 @@
 margin: 15px 0 0 90px;
 height: 58px;
     }
+/*move page*/
+    .first__header1_move{
+        font-size: 2.467rem;
+
+    }
+
+    .first_contacts {
+        height: 48.5vh;
+    }
 
 
 
@@ -220,6 +247,12 @@ height: 58px;
 }
 
 @media screen and ( max-width: 575px) {
+
+    .first_contacts {
+        background-color: rgba(16, 52, 73, 0.4);
+        height: 48.5vh;
+    }
+
     .first__arrow_down{
         /*left: 50%;
         margin-left: 136px;*/
@@ -228,6 +261,10 @@ height: 58px;
     .first__header1, .first__header2{
         letter-spacing: 0;
         font-size: 2.300rem;
+    }
+
+    .first__header1_move{
+        font-size: 2.467rem;
     }
 
     .realty__header,.adv__header{
