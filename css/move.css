@@ -12,47 +12,6 @@
 	margin-bottom: 56px;
 }
 
-.move__text{
-	line-height: 1.4;
-	font-size: 1.067rem;
-}
-
-.form_background{
-	background: #11b2f5;
-	padding: 42px;
-	border-radius: 4px;
-}
-
-.list-groupe-item{
-	margin-bottom: 50px;
-}
-
-.cellPhone__header{
-	font-size: 1.200rem;
-}
-
-.cellPhone__numbers{
-	font-size: 1.067rem;
-}
-
-.contact-page__img{
-	width: 60px;
-	height: 70px;
-	float: left;
-}
-
-.consult__header_contacts{
-	font-size: 1.667rem;
-	color: #fff;
-	margin-bottom: 15px;
-	letter-spacing: 0.5px;
-}
-
-.consult__text_contacts{
-	font-size: 1.200rem ;
-	color: #fff;
-	letter-spacing: 2px;
-}
 
 .head{
 	background: rgba(16, 52, 73, 0.4) url(../img/bulgaria.png) no-repeat center top/cover;
@@ -72,16 +31,19 @@
 	letter-spacing: 11px;
 }
 
-.first__arrow_contacts{
-	  font-size: 2.133rem;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    border: 1px #fff dashed;
-    border-radius: 60px;
-    color: #fff;
-    margin-top: 40px;
-    text-align: center;
+.move__text1, .move__text2 {
+	line-height: 1.4;
+	font-size: 1.067rem;
 }
 
+.move__text2{
+	margin-top: 100px;
+}
+
+/*form-consult*/
+
+.form__consult{
+	background: #11b2f5 url(../img/consulting-bg.png);
+	box-shadow: 0px -57px 81px -17px rgba(0,0,0,0.1) inset;
+}
 
