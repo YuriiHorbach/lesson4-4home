@@ -1,4 +1,19 @@
 /*move-page*/
+.contacts__phone{
+	display: block;
+	width: 193px;
+	font-size: 1.067rem;
+	color: #fff;
+	/*background: url(../img/phone.png ) no-repeat 16% 70%;*/
+	padding: 15px 0;
+	
+}
+
+.contacts__phone:hover{
+	border-bottom: 1px dotted #fff;
+	
+}
+
 .first_contacts {
         height: 48.5vh;
     }
