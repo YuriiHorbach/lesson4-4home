@@ -70,11 +70,25 @@
         margin-top: -20px;
     }
 
-     .form_background{
+    .container-border {
+        padding: 0;
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.0);
+        background: #fff;
+        margin-top: -80px;
+    }
+
+    .mini-cont{
+        margin-top: 50px;
+    }
+
+
+
+
+    .form_background{
 
      }  
 
-     .contact-page__img {
+    .contact-page__img {
         float: left;
     
     }
@@ -88,6 +102,17 @@
 
     .first_contacts {
         height: 48.5vh;
+    }
+
+    .img-wrap{
+        position: relative;
+        margin: 0px -5000px;
+        background: #23aae2;
+    }
+
+    .img-wrap img{
+      display:block;
+      width:100%;
     }
 
    }
@@ -118,6 +143,10 @@
 
     .first_contacts {
         height: 48.5vh;
+    }
+
+    .about__ready_bg{
+       
     }
 
 

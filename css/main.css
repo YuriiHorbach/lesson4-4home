@@ -831,12 +831,12 @@ height: 58px;
 
 .head{
 	background: rgba(16, 52, 73, 0.4) url(../img/bulgaria.png) no-repeat center top/cover;
-	height: 49vh;
+	height: 100%;
 }
 
 .first_contacts{
 	background-color: rgba(16, 52, 73, 0.4);
-	height: 38.5vh;
+	height: 100%;
 }
 
 
