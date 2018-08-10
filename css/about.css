@@ -1,6 +1,14 @@
 /*about-page*/
-.container-border{
+.container-border2{
 	box-shadow: 0px 5px 4px -4px rgba(0,0,0,0.3);
+	padding: 54px 113px;
+	background: #fff;
+	margin-top: -139px;	
+}
+.container-border1{
+	padding: 54px 113px;
+	background: #fff;
+	margin-top: -139px;	
 }
 
 .about__ten{
@@ -44,7 +52,8 @@
 
 .about__partners{
 	font-size: 1.933rem;
-	padding: 60px;
+	padding-top: 130px;
+	padding-bottom: 60px;
 }
 
 
@@ -61,10 +70,24 @@
 }
 
 .about__partners_block1, .about__partners_block2{
-	background: #f4f4f4;
+	background: #f9f9f9;
 	padding: 33px 41px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
+.consult__header_about{
+	font-size: 2.800rem;
+	color: #fff;
+	margin-top: -60px;
+}
+
+.form_background{
+	background: none;
+}
+
+.order__btn, .order__input{
+	background: none;
+}
 
 
 
