@@ -747,17 +747,15 @@ height: 58px;
 }
 
 .footer__rights{
-	display: block;
-	margin: 15px 0 0 100px;
-	height: 58px;
+	margin-left: 50px;
 }
 
 .footer__conf{
 
 	display: block;
-	margin-left: 121px;
-	height: 58px;
-	margin: 15px 0 0 100px;
+	margin-left: 50px;
+	/*height: 58px;
+	margin: 15px 0 0 100px;*/
 }
 
 .footer__conf a{
