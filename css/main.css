@@ -560,7 +560,7 @@ header{
 .feedback__girl{
 	width: 132px;
 	height: 132px;
-	background: url(../img/girl.png) no-repeat;
+	/* background: url(../img/girl.png) no-repeat; */
 	position: absolute;
 	top: 158px;
 	left: -51px;
@@ -581,7 +581,7 @@ header{
 .feedback__name{
 	font-size: 1.067rem;
 	color: #000;
-	margin-left: 140px;
+	margin-left: 20%;
 }
 
 .feedback__location, .feedback__social{
@@ -591,7 +591,7 @@ header{
 }
 
 .feedback__location{
-	margin:0 40px 0 143px;
+	margin:0 40px 0 43px;
 }
 
 .feedback__social{
