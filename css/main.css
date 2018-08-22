@@ -546,15 +546,15 @@ header{
 	width: 132px;
 	height: 132px;
 	line-height: 132px;
-	margin: 204px 0 0 30%;
+	margin: 100% 0 0 30%;
 }
 
-.feedback__rowBlock_right{
+/* .feedback__rowBlock_right{
 	width: 132px;
 	height: 132px;
 	line-height: 132px;
-	margin-top: 204px;`
-}
+	margin-top: 100%;
+} */
 
 .feedback__dataWrap{
 	margin-left: 5%;
@@ -567,13 +567,14 @@ header{
 	position: absolute;
 	/* top: 158px;
 	left: -51px; */
+	margin-left: 15px;
 }
 
 
 .feedback__dataBlock1{
 	margin-top: 112px;
 	margin-bottom: 50px;
-	box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+	/* box-shadow: 1px 2px 2px rgba(0,0,0,0.3); */
 }
 
 .feedback__inner{
