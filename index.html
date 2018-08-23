@@ -44,9 +44,30 @@
 					</div>
 					<div class="col-6 d-sm-block  col-sm-2 col-md-4 col-lg-3 ">
 						<div class="contacts__all">
+							<!-- HTML-код модального окна -->
+							<div id="myModal" class="modal fade">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <!-- Заголовок модального окна -->
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							        <h4 class="modal-title">Заголовок модального окна</h4>
+							      </div>
+							      <!-- Основное содержимое модального окна -->
+							      <div class="modal-body">
+							        Содержимое модального окна...
+							      </div>
+							      <!-- Футер модального окна -->
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+							        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+							      </div>
+							    </div>
+							  </div>
+							</div><!-- HTML-код модального окна -->
 							<div class="contacts__icon no-gatters float-left d-none d-md-block">
-									<img src="img/PhoneDark.png" alt="PhoneDark
-									">
+									<a href="#myModal" class="contacts__buttonForm  " data-toggle="modal"><img src="img/PhoneDark.png" alt="PhoneDark
+										"></a>
 								</div>
 							<div class="contacts__phone no-gatters bolder text-right  d-none d-md-block">
 							
@@ -441,6 +462,9 @@
 	<script src="js/jquery3-3-1.js"></script>
   <script  src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script  src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script  src="js/bootstrap.bundle.min.js"></script>
+
+
   <script src="js/slick/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
