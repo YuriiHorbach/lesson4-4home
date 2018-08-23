@@ -4,7 +4,7 @@ $(document).ready(function(){
   	//dots: true;
     prevArrow: $('.prev'),
     nextArrow: $('.next'),
-    appendDots:$('.feedback__circle'),
+    
 
   });
 
