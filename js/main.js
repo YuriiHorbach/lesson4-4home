@@ -1,7 +1,12 @@
 $(document).ready(function(){
   $('.slider').slick({
-     prevArrow: $('.prev'),
-     nextArrow: $('.next'),     
+  	dots: true,
+  	//dots: true;
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
+    appendDots:$('.feedback__circle'),
+
   });
+
  
 });
