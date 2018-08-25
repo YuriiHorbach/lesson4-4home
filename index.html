@@ -402,6 +402,7 @@
 	</section><!-- feedback -->
 	
 	<section class="consult">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 ">
@@ -426,49 +427,64 @@
 				</div>
 				<div class="col-md-6 d-flex justify-content-center">
 
-					<!-- <div id="feedback"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#feedback-modal">Feedback Modal Form</button></div>
-					<div id="feedback-modal" class="modal fade" role="dialog">
-					<div class="modal-dialog">
-					<div class="modal-content">
-					<div class="modal-header">
-					<a class="close" data-dismiss="modal">×</a>
-					<h3>Send Feedback</h3>
-					</div>
-					<div class="modal-body">
-					<form class="feedback" name="feedback">
-					<strong>Name</strong>
-					<br />
-					<input type="text" name="name" class="input-xlarge" value="Laeeq">
-					<br /><br /><strong>Email</strong><br />
-					<input type="email" name="email" class="input-xlarge" value="phpzag@gmail.com">
-					<br /><br /><strong>Message</strong><br />
-					<textarea name="message" class="input-xlarge">Thanks for tutorials and demos!</textarea>
-					</form>
-					</div>
-					<div class="modal-footer">
-					<button class="btn btn-success" id="submit">Send</button>
-					<a href="#" class="btn" data-dismiss="modal">Close</a>
-					</div>
-					</div>
-					</div>
-					</div> -->
+				
 
-					<div class="consult__form text-left text-uppercase text-normal">
+					<!-- <div class="consult__form text-left text-uppercase text-normal">
 						<form action="#"  id="myForm1  class="consult__order mr-auto ml-auto">
 							<input type="text" name="name" placeholder="Имя" id="name" class="order__input" required="">
 							<input type="email" name="email" placeholder="E-mail" id="email" class="order__input" required="">
 							<input type="tel" name="phone" placeholder="Телефон" id="phone" class="order__input" required="">
-							<input id="button__bottom" type="submit" name="bnt" value="Заказать консультацию" placeholder="Заказать консультацию" id="btn" class="order__btn text-center text-uppercase bolder" required="">
+							<input id="button__bottom" type="submit" name="bnt" value="Заказать консультацию" placeholder="Заказать консультацию" id="btn" class="order__btn text-center text-uppercase bolder" required="" data-toggle="modal" data-target="#exampleModal">
+					
+					
+							<input id="button__bottom" type="submit" name="bnt" value="Заказать консультацию" placeholder="" id="btn" class="order__btn text-center text-uppercase bolder" required="" data-toggle="modal" data-target="#exampleModal">
+						</form> -->
+
+						<form class="form" id="form" name="form">
+							<input type="text" class="form-field" name="name" placeholder="Введите ваше имя">
+							<input type="text" class="form-field" name="phone" placeholder="Введите ваш телефон">
+							<button class="form-button"><span class="text-button">Отправить заявку</span></button>
 						</form>
-</div>
+
+							
+						
+
+						<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							   <div class="modal-header">
+							     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							       <span aria-hidden="true">&times;</span>
+							     </button>
+							   </div>
+							      <div class="modal-body">
+							        Ваш вопрос отправлен. Спасибо. Вы для нас важны.
+							      </div>
+							    <div class="modal-footer">
+							      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							      <button type="button" class="btn btn-primary">Save changes</button>
+							    </div>
+							    </div>
+							  </div>
+							</div> -->
+						</div>
 					<!-- <div class="overlay js-overlay-tnx">
 						<div class="popup js-tnx">
 							tnx
 						</div>
 						<div class="close-popup js-close-tnx"></div>
 					</div> -->
+					<div class="overlay js-overlay-thank-you">
+								<div class="popup js-thank-you">
+									<h2>Спасибо за заявку</h2>
+									<div class="close-popup js-close-thank-you"></div>
+								</div>
+							</div>
+				<div class="scroll-up" id="scroll-up">Наверх</div>
 				
 				</div>
+				
 				<div class="col-md-3">
 				</div>
 			</div>

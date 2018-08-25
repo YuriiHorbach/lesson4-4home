@@ -8,13 +8,7 @@ $(document).ready(function(){
 
   });
 
-    //при нажатию на любую кнопку, имеющую класс .btn
-  $(".contacts__buttonForm").click(function() {
-    //открыть модальное окно с id="myModal"
-    $('#myModal').modal('show')
-  });
-
-
+ /*slow scroll*/
   var $page = $('html, body');
   $('a[href*="#"]').click(function(){
   	$page.animate({
@@ -26,22 +20,39 @@ $(document).ready(function(){
 
 
 
-  $("button#submit").click(function(){
-$.ajax({
-type: "POST",
-url: "feedback.php",
-data: $('form.feedback').serialize(),
-success: function(message){
-$("#feedback").html(message)
-$("#feedback-modal").modal('hide');
-},
-error: function(){
-alert("Error");
-}
-});
+  $('#form').submit(function() { // проверка на пустоту заполненных полей. Атрибут html5 — required не подходит (не поддерживается Safari)
+    if (document.form.name.value == '' || document.form.phone.value == '' ) {
+      valid = false;
+      return valid;
+    }
+    $.ajax({
+      type: "POST",
+      url: "mail/mail.php",
+      data: $(this).serialize()
+    }).done(function() {
+      $('.js-overlay-thank-you').fadeIn();
+      $(this).find('input').val('');
+      $('#form').trigger('reset');
+    });
+    return false;
+  });
+
+
+// Закрыть попап «спасибо»
+    $('.js-close-thank-you').click(function() { // по клику на крестик
+      $('.js-overlay-thank-you').fadeOut();
+    });
+
+    $(document).mouseup(function (e) { // по клику вне попапа
+      var popup = $('.popup');
+      if (e.target!=popup[0]&&popup.has(e.target).length === 0){
+        $('.js-overlay-thank-you').fadeOut();
+      }
+    });
+
+   
 });
 
 	
 
  
-});
