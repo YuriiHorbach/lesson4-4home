@@ -50,18 +50,26 @@
 							    <div class="modal-content">
 							      <!-- Заголовок модального окна -->
 							      <div class="modal-header">
+							      	<h4 class="modal-title">Закажите консультацию!</h4>
 							        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-							        <h4 class="modal-title">Заголовок модального окна</h4>
+							        
 							      </div>
 							      <!-- Основное содержимое модального окна -->
-							      <div class="modal-body">
-							        Содержимое модального окна...
-							      </div>
+							      	<div class="col-md- d-flex justify-content-center">
+												<div class="consult__form text-left text-uppercase text-normal">
+													<form action="#" class="consult__order mr-auto ml-auto" method="post">
+														<input type="text" name="name" placeholder="Имя" id="name" class="order__input" required="">
+														<input type="email" name="email" placeholder="E-mail" id="email" class="order__input" required="">
+														<input type="tel" name="phone" placeholder="Телефон" id="phone" class="order__input" required="">
+														<input type="submit" name="bnt" value="Заказать консультацию" placeholder="Заказать консультацию" id="btn" class="order__btn text-center text-uppercase bolder" required="">
+													</form>
+												</div>
+											</div>
 							      <!-- Футер модального окна -->
-							      <div class="modal-footer">
+							      <!-- <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
 							        <button type="button" class="btn btn-primary">Сохранить изменения</button>
-							      </div>
+							      </div> -->
 							    </div>
 							  </div>
 							</div><!-- HTML-код модального окна -->
@@ -101,9 +109,11 @@
 						</h2>
 					</div>
 					<div class="col-md-12 d-flex justify-content-center">
-						<div class="first__arrow_down">
-							<i class="fas fa-angle-down"></i>
-						</div>
+						<a href="#arrow-down" class="first__ankor">
+							<div class="first__arrow_down">
+								<i class="fas fa-angle-down"></i>
+							</div>
+						</a>
 					</div>
 			</div>
 		</div>		
@@ -112,7 +122,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="adv__header h2-defFontSize upper bolder">
+					<h2 id="arrow-down" class="adv__header h2-defFontSize upper bolder">
 						Наши преимущества
 					</h2>
 				</div>
@@ -415,15 +425,49 @@
 					
 				</div>
 				<div class="col-md-6 d-flex justify-content-center">
+
+					<!-- <div id="feedback"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#feedback-modal">Feedback Modal Form</button></div>
+					<div id="feedback-modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+					<a class="close" data-dismiss="modal">×</a>
+					<h3>Send Feedback</h3>
+					</div>
+					<div class="modal-body">
+					<form class="feedback" name="feedback">
+					<strong>Name</strong>
+					<br />
+					<input type="text" name="name" class="input-xlarge" value="Laeeq">
+					<br /><br /><strong>Email</strong><br />
+					<input type="email" name="email" class="input-xlarge" value="phpzag@gmail.com">
+					<br /><br /><strong>Message</strong><br />
+					<textarea name="message" class="input-xlarge">Thanks for tutorials and demos!</textarea>
+					</form>
+					</div>
+					<div class="modal-footer">
+					<button class="btn btn-success" id="submit">Send</button>
+					<a href="#" class="btn" data-dismiss="modal">Close</a>
+					</div>
+					</div>
+					</div>
+					</div> -->
+
 					<div class="consult__form text-left text-uppercase text-normal">
-						<form action="#" class="consult__order mr-auto ml-auto">
+						<form action="#"  id="myForm1  class="consult__order mr-auto ml-auto">
 							<input type="text" name="name" placeholder="Имя" id="name" class="order__input" required="">
 							<input type="email" name="email" placeholder="E-mail" id="email" class="order__input" required="">
 							<input type="tel" name="phone" placeholder="Телефон" id="phone" class="order__input" required="">
-							<input type="submit" name="bnt" value="Заказать консультацию" placeholder="Заказать консультацию" id="btn" class="order__btn text-center text-uppercase bolder" required="">
+							<input id="button__bottom" type="submit" name="bnt" value="Заказать консультацию" placeholder="Заказать консультацию" id="btn" class="order__btn text-center text-uppercase bolder" required="">
 						</form>
-
-					</div>
+</div>
+					<!-- <div class="overlay js-overlay-tnx">
+						<div class="popup js-tnx">
+							tnx
+						</div>
+						<div class="close-popup js-close-tnx"></div>
+					</div> -->
+				
 				</div>
 				<div class="col-md-3">
 				</div>

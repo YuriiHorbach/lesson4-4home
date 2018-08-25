@@ -684,8 +684,11 @@ header{
 }
 
 .consult__form{
-	
-	
+	padding: 10px;
+}
+
+.consult__form_btn{
+	margin-top: 20px;
 }
 
 .consult__order{
